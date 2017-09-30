@@ -1,0 +1,131 @@
+
+{
+	box-sizing: border-box;
+	background-color: #ffffff;
+}
+
+
+.nav{
+
+}
+
+#connect{
+	font-weight: bold;
+	font-size: 24px;
+	color: #4aaaa5;
+
+}
+
+.container{
+	background-color: white; 
+	border: 3px black solid;
+}
+
+.sidebar{
+	float: right;
+	font-style: 60;
+}
+
+
+.fa{
+	font-size: 80px;
+}
+
+#ladida{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+	font-weight: bold;
+	font-size: 30px;
+
+}
+
+#nameheader {
+
+	/*position: fixed;*/
+ 	top: 0;
+ 	left: 0;
+ 	padding: 40px;
+ 	margin: 0;
+ 	text-align: left;
+ 	background: #4aaaa5;
+ 	font-family: 'Georgia', Times, Times New Roman, serif;
+ 	color: white;
+ 	font-weight: bold;
+ 	font-size: 30px;
+ 	float: left;
+}
+
+#port{
+	float: left;
+	position: relative;
+	display: flex;
+	flex-direction: column-reverse;
+	width: 150px;
+	height: 150px;
+	padding: 20px;
+}
+
+.list{
+	display: flex;
+	list-style-type: none;
+	float: left;
+	margin-left: 700px;'
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-right: 0;
+
+}
+
+#self{
+	/*margin: 100 10;*/
+	text-align: center;
+	padding: 10px;
+	float: left;
+	position: relative;
+  	right: 0;
+  	bottom: 0;
+  	top: 0;
+  	left: 0;
+}
+
+.clearfix::after{
+content: " ";
+display: block;
+clear: both;
+width: 30%;
+}
+
+.aboutme{
+	float: left;
+	/*display: inline-flex;*/
+	font-size: 16px;
+	position: relative;
+	top: 0;
+  	right: -60px;
+  	bottom: 0;
+  	left: 20px;
+  	width: 350px;
+  	padding: 0;
+
+}
+
+.row{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#submit_button
+{
+	background-color: #4aaaa5;
+	color: white;
+	padding: 10px; 
+	width: 100px;
+}
+
+.footer{
+	padding: 30px;
+	text-align: center;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 16px;
+	background-color: #666666;
+	color: #777777; 
+}
